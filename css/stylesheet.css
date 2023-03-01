@@ -33,7 +33,8 @@ nav{
     }
 
     body{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
         gap:15px;
 
     }
